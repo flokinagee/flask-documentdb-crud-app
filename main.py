@@ -20,8 +20,8 @@ app.config.update(dict(
     MAIL_PORT = 465,
     MAIL_USE_TLS = False,
     MAIL_USE_SSL = True,
-    MAIL_USERNAME = 'secapp.devs@gmail.com',
-    MAIL_PASSWORD = 'naga2raj',
+    MAIL_USERNAME = 'XXXXX@gmail.com',
+    MAIL_PASSWORD = 'XXXXXXXXX',
 ))
 
 
