@@ -1,0 +1,20 @@
+<doctype html>
+<title>Update User</title>
+<h2>Update User</h2>
+<form method="post" action="/update">
+    <dl>
+		<p>
+			<input name="inputName" value="{{ row['name'] }}" type="text" placeholder="Name" autocomplete="off" required>
+		</p>
+		<p>
+			<input name="inputSurname" value="" type="text" placeholder="Surname" autocomplete="off" required>
+		</p>
+		<p>
+			<input name="inputEmail" value="{{ row['email'] }}" type="text" placeholder="Email" autocomplete="off" required>
+		</p>
+    </dl>
+    <p>
+		<input name="customerId" value="{{ row['_id'] }}" type="hidden">
+		<input type="submit" value="Submit">
+	</p>
+</form>

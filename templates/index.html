@@ -1,0 +1,21 @@
+<!-- templates/index.html -->
+
+{% extends "base.html" %}
+{% block content %}
+<h1 class="title">
+  Welcome to Preethi's ChitFund
+</h1>
+<h2 class="subtitle">
+  Please signup to login to your account
+</h2>
+<form
+method="POST" action="/">
+<dl>
+  <p>
+    <a href="{{ url_for('.signup') }}"> <font color="red"><b>Sign Up</b></font> </a>
+  </p>
+</dl>
+</form>
+{% endblock %}
+
+  
